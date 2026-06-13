@@ -1,0 +1,8 @@
+.env
+.venv
+External Libraries
+Scratches and concles
+*.xml
+/listen_class_code/
+.idea
+listen_class_code/read.txt
