@@ -7,9 +7,8 @@ from langchain_core.messages import AIMessage, SystemMessage, HumanMessage
 
 AIMessage 代表模型被调用后生产的输出，它可以包含多模态数据、
 工具调用请求以及特定于服务提供商的元数据，并且你可以在稍后访问这些信息。
-AIMessage 是一个信息量极大的“包裹”，它不仅装满了 AI 的回答，还附带了执行工具的指令、账单明细和各种内部状态
-
-
+AIMessage 是一个信息量极大的“包裹”，它不仅装满了 AI 的回答，还附带了执行工具的指令、
+账单明细和各种内部状态
 
 """
 # 加载环境
