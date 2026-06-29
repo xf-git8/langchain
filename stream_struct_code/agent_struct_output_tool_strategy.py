@@ -1,6 +1,6 @@
 # LangChain 中提供两种化的结构化输出策略一些模型提供商通过其 API 原生支持结构化输出
 """
-模型供应商原生支持：ProviderStrategy为 StructuredOutputProviderStrateg
+模型供应商原生支持：ProviderStrategy为 StructuredOutputProviderStrategy
 ToolStrategy:将你的 Pydantic 模型伪装成一个“工具”，让模型通过
 Function Calling 的方式返回结构化数据（兼容性最好，适用于所有支持工具调用的模型）。
 统一响应结果对象用result["structured_response"]
